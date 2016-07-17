@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1 style="text-align: center;">收银机 - G1 - 单品满100减10块</h1>
-	<form action="/CashRegister/GoodsInputAction" method="post">
+	<form action="${pageContext.request.contextPath }/GoodsInputAction" method="post">
 		<table style="margin: 0 auto;">
 			<tr>
 				<td>商店所有商品信息：</td>
